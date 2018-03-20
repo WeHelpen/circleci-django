@@ -1,0 +1,8 @@
+# Docker image for Django 1.x projects on CircleCI
+
+Customized image to use on CircleCI.
+Based on circleci/python(2.7).
+
+## Customizations
+
+* Adds libgdal library
