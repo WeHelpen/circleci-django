@@ -2,7 +2,7 @@ FROM ubuntu:bionic
 
 RUN mkdir -p /srv/requirements
 
-COPY requirements/ubuntu-18.04LTS_build.txt /srv/requirements
+COPY ubuntu-18.04LTS_build.txt /srv/requirements
 
 RUN apt-get -q update && \
     apt-get -q -y install --no-install-recommends \
