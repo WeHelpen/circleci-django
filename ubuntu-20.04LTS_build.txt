@@ -1,0 +1,21 @@
+# build dependencies on ubuntu 20.04LTS
+binutils
+g++
+gcc
+gdal-bin
+gettext
+git
+libcairo2-dev
+libffi-dev
+libfreetype6-dev
+libgeos-dev
+libjpeg-turbo8-dev
+libmariadb-dev
+libpango1.0-0
+libproj-dev
+libwebp-dev
+libxml2-dev
+mariadb-client
+python3.8-dev
+python3.8-venv
+zlib1g-dev

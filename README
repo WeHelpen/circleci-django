@@ -1,10 +1,10 @@
-# Docker image for Django 1.x projects on CircleCI
+# Docker image for Django 2.x projects on CircleCI
 
 Customized image to use on CircleCI.
-Based on ubuntu:bionic for python 2.7 / 3.6 testing.
+Based on ubuntu:20.04 for python testing.
 
 ## Customizations
 
-* Adds python 2 and 3 and library dependencies
+* Adds python and library dependencies
 * Creates virtualenv to run tox
 
