@@ -12,6 +12,7 @@ libgeos-dev
 libjpeg-turbo8-dev
 libmariadb-dev
 libpango1.0-0
+libpangocairo-1.0-0
 libproj-dev
 libwebp-dev
 libxml2-dev
