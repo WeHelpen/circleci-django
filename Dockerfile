@@ -13,5 +13,8 @@ RUN virtualenv /srv/venv/
 RUN /srv/venv/bin/pip install --upgrade pip wheel setuptools tox
 
 ENV LANG C.UTF-8
+ENV PATH=/srv/venv/bin:$PATH
 
-CMD cd /srv/app && /srv/venv/bin/tox
+WORKDIR /srv/app
+
+CMD /srv/venv/bin/tox
